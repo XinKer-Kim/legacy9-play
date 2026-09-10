@@ -1,0 +1,26 @@
+{
+  "version": "sd-field-front-v2",
+  "files": [
+    "home-fielder.png",
+    "away-fielder.png",
+    "home-pitcher.png",
+    "away-pitcher.png"
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "contentHeight": 194,
+  "feet": [
+    128,
+    225
+  ],
+  "background": "transparent RGBA",
+  "source": "Built-in imagegen, newly generated front-facing upright sprites; originals preserved under output/sd-field-front-v2",
+  "teamColors": {
+    "home": "white",
+    "away": "black"
+  },
+  "roles": "Fielders and pitcher only; catcher, batter and runner retain v1",
+  "pose": "Front-facing toward bottom/home; slight CSS horizontal perspective yaw, no body roll"
+}

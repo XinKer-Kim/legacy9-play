@@ -1,0 +1,105 @@
+{
+  "description": "128px lossy WebP (quality 82) icons for small logo slots; original PNG files unchanged",
+  "entries": [
+    {
+      "team": "KT Wiz",
+      "file": "수원윙스.png.webp",
+      "source": "public\\assets\\logo\\수원윙스.png",
+      "sourceSha256": "871de4d66d14ef481fc432f1562fbf12f8eb211d833d08aba7761d9f3afcc099",
+      "originalBytes": 1150737,
+      "iconBytes": 8426,
+      "originalWidth": 1254,
+      "originalHeight": 1254
+    },
+    {
+      "team": "삼성라이온즈",
+      "file": "대구라이츠.png.webp",
+      "source": "public\\assets\\logo\\대구라이츠.png",
+      "sourceSha256": "b3d975b97e17ffa77d79c1551a344f47964b593a2b87e3682340ac4b472e8966",
+      "originalBytes": 1230150,
+      "iconBytes": 8284,
+      "originalWidth": 1254,
+      "originalHeight": 1254
+    },
+    {
+      "team": "한화이글스",
+      "file": "대전이클립스.png.webp",
+      "source": "public\\assets\\logo\\대전이클립스.png",
+      "sourceSha256": "db7bfe27b7d1412d7a3d801b8991bb3b76f9f4fef0838639f30223a4c51aa3be",
+      "originalBytes": 1376712,
+      "iconBytes": 11796,
+      "originalWidth": 1254,
+      "originalHeight": 1254
+    },
+    {
+      "team": "SSG 랜더스",
+      "file": "인천랜서스.png.webp",
+      "source": "public\\assets\\logo\\인천랜서스.png",
+      "sourceSha256": "a062c1bfd13d3d302f58c510dce4f8a6c2d885daeb587e1df23f0d4ffacea191",
+      "originalBytes": 2173027,
+      "iconBytes": 11240,
+      "originalWidth": 1254,
+      "originalHeight": 1254
+    },
+    {
+      "team": "키움 히어로즈",
+      "file": "서울히페리온.png.webp",
+      "source": "public\\assets\\logo\\서울히페리온.png",
+      "sourceSha256": "8e668e3abf49ec025b81e7f420f487503a178122142fd4d09cae7dd46db4c41a",
+      "originalBytes": 2288403,
+      "iconBytes": 10062,
+      "originalWidth": 1254,
+      "originalHeight": 1254
+    },
+    {
+      "team": "NC 다이노스",
+      "file": "창원다이버스.png.webp",
+      "source": "public\\assets\\logo\\창원다이버스.png",
+      "sourceSha256": "3f15e418d39767ed94c0840e00d0d24503aa185f583e5727f5287d9ae5aecb22",
+      "originalBytes": 1576520,
+      "iconBytes": 9784,
+      "originalWidth": 1254,
+      "originalHeight": 1254
+    },
+    {
+      "team": "LG 트윈스",
+      "file": "서울테일윈즈.png.webp",
+      "source": "public\\assets\\logo\\서울테일윈즈.png",
+      "sourceSha256": "f588739f07399b7c7687df784b32e21a6334a1cfb3411f0ba932e2541fdd288f",
+      "originalBytes": 1808806,
+      "iconBytes": 11044,
+      "originalWidth": 1254,
+      "originalHeight": 1254
+    },
+    {
+      "team": "롯데 자이언츠",
+      "file": "부산가디언스.png.webp",
+      "source": "public\\assets\\logo\\부산가디언스.png",
+      "sourceSha256": "d2409e69a00ad22a0efe70a281bd3610489009d2f21f5bd1ab36923496215cba",
+      "originalBytes": 1362680,
+      "iconBytes": 9302,
+      "originalWidth": 1254,
+      "originalHeight": 1254
+    },
+    {
+      "team": "두산베어스",
+      "file": "서울브루어스.png.webp",
+      "source": "public\\assets\\logo\\서울브루어스.png",
+      "sourceSha256": "6c80575dd456564e6ab9366bbc6ed859886030bbdb3e9fe3c3c2f0420d65128f",
+      "originalBytes": 1505521,
+      "iconBytes": 9624,
+      "originalWidth": 1254,
+      "originalHeight": 1254
+    },
+    {
+      "team": "KIA Tigers",
+      "file": "광주타이런츠.png.webp",
+      "source": "public\\assets\\logo\\광주타이런츠.png",
+      "sourceSha256": "7990ddccaf9edbe3ba506b546f56dbe60b32d601ba39d0c00b39bc61c30a8992",
+      "originalBytes": 1309751,
+      "iconBytes": 7430,
+      "originalWidth": 1254,
+      "originalHeight": 1254
+    }
+  ]
+}

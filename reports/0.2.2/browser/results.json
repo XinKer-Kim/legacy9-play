@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "errors": [],
+  "physicalDevice": false,
+  "fixture": "실제 코어로 초기화한 격리 저장",
+  "screens": [
+    {
+      "width": 344,
+      "height": 882,
+      "ordinaryComingSoon": true,
+      "developerOnlyTest": true,
+      "paymentTestNoMutation": true,
+      "saveFailureAtomic": true,
+      "legacyAssetsPreserved": true,
+      "noAutomaticPoints": true,
+      "ownerPlanPersists": true,
+      "noShareQuota": true,
+      "openingLock": true,
+      "noHorizontalOverflow": true,
+      "pageErrors": []
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "ordinaryComingSoon": true,
+      "developerOnlyTest": true,
+      "paymentTestNoMutation": true,
+      "saveFailureAtomic": true,
+      "legacyAssetsPreserved": true,
+      "noAutomaticPoints": true,
+      "ownerPlanPersists": true,
+      "noShareQuota": true,
+      "openingLock": true,
+      "noHorizontalOverflow": true,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "ordinaryComingSoon": true,
+      "developerOnlyTest": true,
+      "paymentTestNoMutation": true,
+      "saveFailureAtomic": true,
+      "legacyAssetsPreserved": true,
+      "noAutomaticPoints": true,
+      "ownerPlanPersists": true,
+      "noShareQuota": true,
+      "openingLock": true,
+      "noHorizontalOverflow": true,
+      "pageErrors": []
+    },
+    {
+      "width": 1280,
+      "height": 844,
+      "ordinaryComingSoon": true,
+      "developerOnlyTest": true,
+      "paymentTestNoMutation": true,
+      "saveFailureAtomic": true,
+      "legacyAssetsPreserved": true,
+      "noAutomaticPoints": true,
+      "ownerPlanPersists": true,
+      "noShareQuota": true,
+      "openingLock": true,
+      "noHorizontalOverflow": true,
+      "pageErrors": []
+    }
+  ]
+}

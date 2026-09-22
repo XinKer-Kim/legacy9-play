@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "physicalDevice": false,
+  "scope": "격리 초기 저장 + 실제 UI 선택 및 공통 코어 경기 기록",
+  "screens": [
+    {
+      "width": 344,
+      "height": 882,
+      "saveFailureAtomic": true,
+      "saveAndReload": true,
+      "sameMonthLocked": true,
+      "selectionTabPreserved": true,
+      "helpDialog": true,
+      "realHomeReceipt": true,
+      "spaActualQuote": true,
+      "ordinaryShopBlocked": true,
+      "horizontalOverflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "saveFailureAtomic": true,
+      "saveAndReload": true,
+      "sameMonthLocked": true,
+      "selectionTabPreserved": true,
+      "helpDialog": true,
+      "realHomeReceipt": true,
+      "spaActualQuote": true,
+      "ordinaryShopBlocked": true,
+      "horizontalOverflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "saveFailureAtomic": true,
+      "saveAndReload": true,
+      "sameMonthLocked": true,
+      "selectionTabPreserved": true,
+      "helpDialog": true,
+      "realHomeReceipt": true,
+      "spaActualQuote": true,
+      "ordinaryShopBlocked": true,
+      "horizontalOverflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 1280,
+      "height": 844,
+      "saveFailureAtomic": true,
+      "saveAndReload": true,
+      "sameMonthLocked": true,
+      "selectionTabPreserved": true,
+      "helpDialog": true,
+      "realHomeReceipt": true,
+      "spaActualQuote": true,
+      "ordinaryShopBlocked": true,
+      "horizontalOverflow": false,
+      "pageErrors": []
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "viewport": [
+        344,
+        882
+      ],
+      "ownerPlanPersists": true,
+      "purchasesAndThemePersist": true,
+      "saveFailureAtomic": true,
+      "paymentBlocked": true,
+      "noHorizontalOverflow": true,
+      "openingLock": true,
+      "pageErrors": []
+    },
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "ownerPlanPersists": true,
+      "purchasesAndThemePersist": true,
+      "saveFailureAtomic": true,
+      "paymentBlocked": true,
+      "noHorizontalOverflow": true,
+      "openingLock": true,
+      "pageErrors": []
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "ownerPlanPersists": true,
+      "purchasesAndThemePersist": true,
+      "saveFailureAtomic": true,
+      "paymentBlocked": true,
+      "noHorizontalOverflow": true,
+      "openingLock": true,
+      "pageErrors": []
+    },
+    {
+      "viewport": [
+        1280,
+        844
+      ],
+      "ownerPlanPersists": true,
+      "purchasesAndThemePersist": true,
+      "saveFailureAtomic": true,
+      "paymentBlocked": true,
+      "noHorizontalOverflow": true,
+      "openingLock": true,
+      "pageErrors": []
+    }
+  ],
+  "physicalDevice": false
+}

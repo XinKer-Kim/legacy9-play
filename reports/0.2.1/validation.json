@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "errors": [],
+  "source": "c5b6dc45aebf5e66f423e45fbc4a04d082586737",
+  "node": "24.11.1",
+  "tests": {
+    "tests": 375,
+    "pass": 375,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0
+  },
+  "regularGames": 1800,
+  "seasonRollovers": 4,
+  "physicalDevice": false,
+  "browserProfile": "isolated Chromium; fixtures bootstrap via actual core; owner/shop decisions via UI",
+  "screens": [
+    {
+      "width": 344,
+      "height": 882,
+      "viewport": [
+        344,
+        882
+      ],
+      "ownerPlanPersists": true,
+      "purchasesAndThemePersist": true,
+      "saveFailureAtomic": true,
+      "paymentBlocked": true,
+      "noHorizontalOverflow": true,
+      "openingLock": true,
+      "pageErrors": []
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "viewport": [
+        360,
+        640
+      ],
+      "ownerPlanPersists": true,
+      "purchasesAndThemePersist": true,
+      "saveFailureAtomic": true,
+      "paymentBlocked": true,
+      "noHorizontalOverflow": true,
+      "openingLock": true,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "viewport": [
+        390,
+        844
+      ],
+      "ownerPlanPersists": true,
+      "purchasesAndThemePersist": true,
+      "saveFailureAtomic": true,
+      "paymentBlocked": true,
+      "noHorizontalOverflow": true,
+      "openingLock": true,
+      "pageErrors": []
+    },
+    {
+      "width": 1280,
+      "height": 844,
+      "viewport": [
+        1280,
+        844
+      ],
+      "ownerPlanPersists": true,
+      "purchasesAndThemePersist": true,
+      "saveFailureAtomic": true,
+      "paymentBlocked": true,
+      "noHorizontalOverflow": true,
+      "openingLock": true,
+      "pageErrors": []
+    }
+  ],
+  "baseline": {
+    "source": "c66fcdaf2abcd5f0f39ecca486449be36fdeddd4",
+    "tests": 363,
+    "pass": 361,
+    "fail": 2,
+    "failures": [
+      "missing untracked postseason fixture",
+      "stale PS golden hashes"
+    ]
+  },
+  "streamComparison": {
+    "20260909": "843285c9fcf088019da3f1798ab1186145e0676ebaa160bea966207112245b3e",
+    "77": "b92b25babfe49711e308895851ae25c5c30294c2b769508f48ae4b0f7c02df29",
+    "originalAndImplementationEqual": true,
+    "scope": "regular season plus first five postseason games; canonical results/health/rotation/RNG/series"
+  },
+  "limits": [
+    "Not a physical mobile device test",
+    "Not a full 10-year or many-seed balance study",
+    "Payment and account ownership are not integrated"
+  ]
+}

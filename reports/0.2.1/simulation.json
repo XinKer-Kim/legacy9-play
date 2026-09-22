@@ -1,0 +1,102 @@
+{
+  "source": "shipped generated roster and historical pool (includes pre-existing provisional ratings)",
+  "policy": "no player actions apart from annual owner plan and cosmetic ink purchase; automated offseason",
+  "runs": [
+    {
+      "mode": 72,
+      "seed": 20260987,
+      "year": 2026,
+      "plan": "rebuild",
+      "games": 360,
+      "snapshots": 3,
+      "score": 59,
+      "rank": 1,
+      "youthShare": 0.10894897249158217,
+      "trust": 50,
+      "termAverage": null,
+      "averagePayroll": 3595400000,
+      "cash": 18187360000,
+      "points": 50,
+      "meanOvr": 51.42840555740469,
+      "aiReviews": 10,
+      "aiScoreRange": [
+        59,
+        93.67
+      ],
+      "nextSupport": 0,
+      "nextYear": 2027
+    },
+    {
+      "mode": 72,
+      "seed": 20260987,
+      "year": 2027,
+      "plan": "balanced",
+      "games": 360,
+      "snapshots": 3,
+      "score": 53.67,
+      "rank": 10,
+      "youthShare": 0.3276383630005196,
+      "trust": 48,
+      "termAverage": null,
+      "averagePayroll": 3401020000,
+      "cash": 28527100000,
+      "points": 100,
+      "meanOvr": 51.330222762871,
+      "aiReviews": 10,
+      "aiScoreRange": [
+        53.67,
+        96.38
+      ],
+      "nextSupport": 0,
+      "nextYear": 2028
+    },
+    {
+      "mode": 72,
+      "seed": 20260987,
+      "year": 2028,
+      "plan": "contend",
+      "games": 360,
+      "snapshots": 3,
+      "score": 59,
+      "rank": 10,
+      "youthShare": 0.19841856710552339,
+      "trust": 45,
+      "termAverage": 57.22,
+      "averagePayroll": 3319310000,
+      "cash": 39458998000,
+      "points": 150,
+      "meanOvr": 51.23816379993663,
+      "aiReviews": 10,
+      "aiScoreRange": [
+        59,
+        96.38
+      ],
+      "nextSupport": 0,
+      "nextYear": 2029
+    },
+    {
+      "mode": 144,
+      "seed": 20261059,
+      "year": 2026,
+      "plan": "rebuild",
+      "games": 720,
+      "snapshots": 6,
+      "score": 59,
+      "rank": 1,
+      "youthShare": 0.11494527715909421,
+      "trust": 50,
+      "termAverage": null,
+      "averagePayroll": 3595400000,
+      "cash": 17500036000,
+      "points": 50,
+      "meanOvr": 51.42779936916367,
+      "aiReviews": 10,
+      "aiScoreRange": [
+        59,
+        96.38
+      ],
+      "nextSupport": 0,
+      "nextYear": 2027
+    }
+  ]
+}

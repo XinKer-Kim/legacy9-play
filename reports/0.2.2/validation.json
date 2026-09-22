@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "errors": [],
+  "source": "6c27208fd2294560bc22c9259b8cee6b3a5f3afd",
+  "node": "24.11.1",
+  "tests": {
+    "tests": 378,
+    "pass": 378,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0
+  },
+  "screens": [
+    {
+      "width": 344,
+      "height": 882,
+      "ordinaryComingSoon": true,
+      "developerOnlyTest": true,
+      "paymentTestNoMutation": true,
+      "saveFailureAtomic": true,
+      "legacyAssetsPreserved": true,
+      "noAutomaticPoints": true,
+      "ownerPlanPersists": true,
+      "noShareQuota": true,
+      "openingLock": true,
+      "noHorizontalOverflow": true,
+      "pageErrors": []
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "ordinaryComingSoon": true,
+      "developerOnlyTest": true,
+      "paymentTestNoMutation": true,
+      "saveFailureAtomic": true,
+      "legacyAssetsPreserved": true,
+      "noAutomaticPoints": true,
+      "ownerPlanPersists": true,
+      "noShareQuota": true,
+      "openingLock": true,
+      "noHorizontalOverflow": true,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "ordinaryComingSoon": true,
+      "developerOnlyTest": true,
+      "paymentTestNoMutation": true,
+      "saveFailureAtomic": true,
+      "legacyAssetsPreserved": true,
+      "noAutomaticPoints": true,
+      "ownerPlanPersists": true,
+      "noShareQuota": true,
+      "openingLock": true,
+      "noHorizontalOverflow": true,
+      "pageErrors": []
+    },
+    {
+      "width": 1280,
+      "height": 844,
+      "ordinaryComingSoon": true,
+      "developerOnlyTest": true,
+      "paymentTestNoMutation": true,
+      "saveFailureAtomic": true,
+      "legacyAssetsPreserved": true,
+      "noAutomaticPoints": true,
+      "ownerPlanPersists": true,
+      "noShareQuota": true,
+      "openingLock": true,
+      "noHorizontalOverflow": true,
+      "pageErrors": []
+    }
+  ],
+  "regularGames": 1800,
+  "seasonRollovers": 4,
+  "physicalDevice": false,
+  "limitations": [
+    "실물 기기 미검증",
+    "실제 결제·매출 검증 아님",
+    "다수 시드 경제 보정 아님",
+    "초기 저장은 코어로 생성하고 상점 조작은 UI로 검증"
+  ]
+}

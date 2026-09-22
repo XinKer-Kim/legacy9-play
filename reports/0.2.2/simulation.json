@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "errors": [],
+  "scope": "실제 배포 로스터 · 72경기 3시즌과 144경기 1시즌 · 자동 오프시즌",
+  "regularGames": 1800,
+  "runs": [
+    {
+      "mode": 72,
+      "year": 2026,
+      "seed": 20260988,
+      "regularGames": 360,
+      "snapshots": 3,
+      "cash": 15769832000,
+      "championScore": 91.55,
+      "championRank": 1,
+      "postseasonReflected": true,
+      "shopPreserved": true,
+      "reviewPreserved": true,
+      "trust": 57,
+      "nextSupport": 14000000
+    },
+    {
+      "mode": 72,
+      "year": 2027,
+      "seed": 20260988,
+      "regularGames": 360,
+      "snapshots": 3,
+      "cash": 28627902000,
+      "championScore": 90.67,
+      "championRank": 1,
+      "postseasonReflected": true,
+      "shopPreserved": true,
+      "reviewPreserved": true,
+      "trust": 65,
+      "nextSupport": 30000000
+    },
+    {
+      "mode": 72,
+      "year": 2028,
+      "seed": 20260988,
+      "regularGames": 360,
+      "snapshots": 3,
+      "cash": 40215218000,
+      "championScore": 90.67,
+      "championRank": 4,
+      "postseasonReflected": true,
+      "shopPreserved": true,
+      "reviewPreserved": true,
+      "trust": 63,
+      "nextSupport": 26000000
+    },
+    {
+      "mode": 144,
+      "year": 2026,
+      "seed": 20261060,
+      "regularGames": 720,
+      "snapshots": 6,
+      "cash": 17335432000,
+      "championScore": 91.55,
+      "championRank": 1,
+      "postseasonReflected": true,
+      "shopPreserved": true,
+      "reviewPreserved": true,
+      "trust": 58,
+      "nextSupport": 16000000
+    }
+  ]
+}

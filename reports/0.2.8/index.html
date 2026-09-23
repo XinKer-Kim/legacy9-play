@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LEGACY 9 · 0.2.8 버전 보고서</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#eef3e9;color:#20362a;font:16px/1.72 system-ui,"Malgun Gothic",sans-serif;overflow-wrap:anywhere}main{max-width:1080px;margin:auto;padding:28px 18px 56px}header,section{background:#fff;border:1px solid #d6e0d0;border-radius:18px;padding:30px;margin-bottom:18px}header{background:linear-gradient(135deg,#173d2c,#315d41);color:#fff}h1{font-size:clamp(30px,6vw,54px);line-height:1.18;margin:8px 0 14px}h2{font-size:24px;margin:0 0 14px}h3{font-size:18px;margin:20px 0 8px}.eyebrow{font-size:12px;letter-spacing:.18em;color:#cfe4bd}.lead{max-width:760px;font-size:18px}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}.metric{background:#f3f7ef;border:1px solid #cfddc7;border-radius:12px;padding:18px}.metric b{display:block;font-size:27px;color:#22553b}.metric span{font-size:12px;color:#647566}.columns{display:grid;grid-template-columns:1fr 1fr;gap:22px}.notice{border-left:5px solid #c3952e;background:#fff8df;padding:15px 18px}.ok{border-left-color:#3b8053;background:#eff8ed}.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}figure{margin:0;border:1px solid #d6e0d0;border-radius:14px;overflow:hidden;background:#f5f8f2}figure img{display:block;width:100%;height:auto}figcaption{padding:13px;font-size:14px}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:560px}th,td{text-align:left;padding:11px;border-bottom:1px solid #dce5d7;vertical-align:top}th{font-size:13px;color:#536756}a{color:#286646}.links{display:flex;flex-wrap:wrap;gap:8px 18px}.foot{font-size:13px;color:#66776a}@media(max-width:720px){main{padding:12px}header,section{padding:21px}.metrics{grid-template-columns:1fr 1fr}.columns,.gallery{grid-template-columns:1fr}.metric b{font-size:23px}}
+  </style>
+</head>
+<body><main>
+  <header>
+    <p class="eyebrow">LEGACY 9 · VERSION 0.2.8 · 2026-09-23</p>
+    <h1>10년을 플레이하며 걸린 것들을 고쳤습니다.</h1>
+    <p class="lead">10년 플레이 QA의 배치 1(눈에 보이는 버그·표기 17건)과 배치 2(조용히 망가지는 흐름 9건)를 반영했습니다. 경기 확률·성장·AI 판단 식은 그대로이고, 사용자 결정에 따라 구단주 순위 평가만 새 규칙(v3)으로 바꿨습니다.</p>
+  </header>
+  <section>
+    <h2>이번 버전의 결과</h2>
+    <div class="metrics">
+      <div class="metric"><b>17건</b><span>배치 1 표시·조작 수정</span></div>
+      <div class="metric"><b>9건</b><span>배치 2 흐름 안전장치</span></div>
+      <div class="metric"><b>21·19</b><span>KT 시작 투수·타자</span></div>
+      <div class="metric"><b>487 / 487</b><span>전체 검사 통과</span></div>
+    </div>
+    <div class="columns">
+      <div class="notice ok"><h3>눈에 보이는 버그</h3><p>트레이드 거절 사유를 한국어 문장으로, 불가능한 제안은 버튼을 막았습니다. 경기 중 스코어보드 글자, 1루 주자에 가려지던 1루수, 교체 창 원시 숫자, 기록 없음 0.000, 잘리던 표, 세 가지로 섞이던 금액 표기, 오래된 보고서 링크, 어색한 문구·줄바꿈·여백을 고쳤습니다.</p></div>
+      <div class="notice"><h3>흐름 안전장치</h3><p>다음 해 전 포지션 부족 경고, 60인 상한 드래프트 경고, 마지막 시즌 안내, 5위 밖 '결과 보기', 고른 구단주 방침 유지, 시즌 목표와 구단주 목표 일치, 대체 야수 부족 안내를 넣었습니다.</p></div>
+    </div>
+  </section>
+  <section>
+    <h2>수원 윙스 시작 선수단</h2>
+    <p>2군이 14명 모두 투수였던 이유는 데이터 누락이 아니라 로스터 생성기가 원문 순서대로 14명을 잘랐기 때문입니다(원문은 투수를 먼저 적음). 2군 타자를 최소 5명 보장해 원문의 2군 타자 5명이 들어왔습니다. 새 5명은 기존 무성적 규칙(37)과 원문 나이를 씁니다. 다른 9개 구단은 바뀌지 않았습니다. 시작 선수단이 바뀌어 포스트시즌 재현 해시를 사유와 함께 갱신했습니다.</p>
+  </section>
+  <section>
+    <h2>구단주 평가 v3</h2>
+    <p>9년 연속 꼴찌여도 매년 73.6점·신뢰 +3이 나오던 구조를 바꿨습니다. 목표 순위는 7위보다 낮게 두지 않고(무난한 목표는 5강, '망치지 마라'는 7위까지), 순위 점수는 목표 대비 점수와 절대 순위 점수(5위 = 80, 한 계단 8점)를 절반씩 섞습니다. 같은 꼴찌 사례는 59.7점·신뢰 변화 0이 됩니다. 이미 저장된 과거 평가는 종전 식 그대로 둡니다.</p>
+  </section>
+  <section>
+    <h2>모바일 실제 화면</h2>
+    <p class="foot">390×844. 6~8번은 저장을 바꾸지 않고 메모리에서 만든 오프시즌 상태를 실제 화면 CSS로 그린 것입니다.</p>
+    <div class="gallery"><figure><img src="screenshots/01-match-390.jpg" alt="경기 중 스코어보드 글자와 1루 주자·1루수가 모두 보인다." loading="lazy"><figcaption>경기 중 스코어보드 글자와 1루 주자·1루수가 모두 보인다.</figcaption></figure><figure><img src="screenshots/02-trade-390.jpg" alt="불가능한 트레이드는 사유 문장과 함께 제안 버튼이 막힌다." loading="lazy"><figcaption>불가능한 트레이드는 사유 문장과 함께 제안 버튼이 막힌다.</figcaption></figure><figure><img src="screenshots/03-records-390.jpg" alt="기록 없음은 —, 타율·OPS는 .xxx 표기, 표가 390px 안에 들어온다." loading="lazy"><figcaption>기록 없음은 —, 타율·OPS는 .xxx 표기, 표가 390px 안에 들어온다.</figcaption></figure><figure><img src="screenshots/04-money-390.jpg" alt="금액은 억 단위 한 규칙이고 숫자와 단위가 줄에서 갈리지 않는다." loading="lazy"><figcaption>금액은 억 단위 한 규칙이고 숫자와 단위가 줄에서 갈리지 않는다.</figcaption></figure><figure><img src="screenshots/05-kt-roster-390.jpg" alt="수원 윙스 시작 선수단이 투수 26·타자 14에서 투수 21·타자 19로 바뀌었다." loading="lazy"><figcaption>수원 윙스 시작 선수단이 투수 26·타자 14에서 투수 21·타자 19로 바뀌었다.</figcaption></figure><figure><img src="screenshots/06-shortage-390.jpg" alt="다음 해로 넘어가기 전 부족 포지션을 알리고 확인해야 진행한다(메모리에서 만든 상태)." loading="lazy"><figcaption>다음 해로 넘어가기 전 부족 포지션을 알리고 확인해야 진행한다(메모리에서 만든 상태).</figcaption></figure><figure><img src="screenshots/07-draft-cap-390.jpg" alt="60인 상한이면 FA 마감 전에 지명권을 잃는다고 알린다(메모리에서 만든 상태)." loading="lazy"><figcaption>60인 상한이면 FA 마감 전에 지명권을 잃는다고 알린다(메모리에서 만든 상태).</figcaption></figure><figure><img src="screenshots/08-final-season-390.jpg" alt="10년째 오프시즌에 곧 최종 결산이라는 안내(메모리에서 만든 상태)." loading="lazy"><figcaption>10년째 오프시즌에 곧 최종 결산이라는 안내(메모리에서 만든 상태).</figcaption></figure></div>
+  </section>
+  <section>
+    <h2>바꾸지 않은 것과 남은 위험</h2>
+    <div class="table-wrap"><table><thead><tr><th>구분</th><th>내용</th></tr></thead><tbody>
+      <tr><td>경기·성장·AI</td><td>경기 확률, 성장·노쇠, AI 판단 계산식 불변. 1·3루 주자 좌표는 그림 위치만 바꿈.</td></tr>
+      <tr><td>저장</td><td>진행 중 세이브 소급 수정 없음. KT 선수단 변경은 새 게임부터.</td></tr>
+      <tr><td>발달 프로필</td><td>POT가 09-22 능력치 복원 이후 값과 어긋나 있음(이번 변경 이전부터). 전체 재생성은 별도 과제.</td></tr>
+      <tr><td>표기</td><td>앱 전체를 띄어쓰기 단위 줄바꿈으로 바꿈. 금액은 뒤 0 생략(1.5억)과 HUD 소수 둘째 자리.</td></tr>
+      <tr><td>미검증</td><td>물리 스마트폰, 10년 전체 재진행, 5위 밖 문구·대체 야수 안내의 실제 진행 화면.</td></tr>
+    </tbody></table></div>
+    <p class="foot">자세한 항목별 원인과 전후 비교: docs/qa-reports/20260923-10year-journey/fix-batch-1.md · fix-batch-2.md</p>
+  </section>
+</main></body>
+</html>

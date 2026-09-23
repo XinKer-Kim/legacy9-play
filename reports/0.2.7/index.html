@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LEGACY 9 · 0.2.7 버전 보고서</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#eef3e9;color:#20362a;font:16px/1.72 system-ui,"Malgun Gothic",sans-serif;overflow-wrap:anywhere}main{max-width:1080px;margin:auto;padding:28px 18px 56px}header,section{background:#fff;border:1px solid #d6e0d0;border-radius:18px;padding:30px;margin-bottom:18px}header{background:linear-gradient(135deg,#173d2c,#315d41);color:#fff}h1{font-size:clamp(30px,6vw,54px);line-height:1.18;margin:8px 0 14px}h2{font-size:24px;margin:0 0 14px}h3{font-size:18px;margin:20px 0 8px}.eyebrow{font-size:12px;letter-spacing:.18em;color:#cfe4bd}.lead{max-width:760px;font-size:18px}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}.metric{background:#f3f7ef;border:1px solid #cfddc7;border-radius:12px;padding:18px}.metric b{display:block;font-size:27px;color:#22553b}.metric span{font-size:12px;color:#647566}.columns{display:grid;grid-template-columns:1fr 1fr;gap:22px}.notice{border-left:5px solid #c3952e;background:#fff8df;padding:15px 18px}.ok{border-left-color:#3b8053;background:#eff8ed}.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}figure{margin:0;border:1px solid #d6e0d0;border-radius:14px;overflow:hidden;background:#f5f8f2}figure img{display:block;width:100%;height:auto}figcaption{padding:13px;font-size:14px}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:560px}th,td{text-align:left;padding:11px;border-bottom:1px solid #dce5d7;vertical-align:top}th{font-size:13px;color:#536756}a{color:#286646}.links{display:flex;flex-wrap:wrap;gap:8px 18px}.foot{font-size:13px;color:#66776a}@media(max-width:720px){main{padding:12px}header,section{padding:21px}.metrics{grid-template-columns:1fr 1fr}.columns,.gallery{grid-template-columns:1fr}.metric b{font-size:23px}}
+  </style>
+</head>
+<body><main>
+  <header>
+    <p class="eyebrow">LEGACY 9 · VERSION 0.2.7 · 2026-09-22</p>
+    <h1>기록이 있던 선수는 복원하고,<br>아직 모르는 값은 숨기지 않습니다.</h1>
+    <p class="lead">과거 1군 기록으로 기본 능력치를 보완하고, 미측정 축은 실제 값과 구분되는 <b>추정</b> 등급으로 표시했습니다. 새 게임의 선수 읽기는 좋아졌지만 근거 없는 수치를 새로 만들지는 않았습니다.</p>
+  </header>
+
+  <section>
+    <h2>이번 버전의 결과</h2>
+    <div class="metrics">
+      <div class="metric"><b>57명</b><span>과거 기록으로 복원한 1군 선수</span></div>
+      <div class="metric"><b>228축</b><span>기본 능력치 복원 수</span></div>
+      <div class="metric"><b>122명</b><span>다년 수비 이력 반영 선수</span></div>
+      <div class="metric"><b>468 / 468</b><span>전체 검사 통과</span></div>
+    </div>
+    <div class="columns">
+      <div><h3>기록 기반 복원</h3><p>2023~2025년 1군 시즌 기록만 사용해 체력·컨택·파워·선구 또는 체력·구위·변화·제구를 복원했습니다. 2026 성적과 통산 행은 제외했고, 타자 100PA·투수 20IP 미만 등 표본이 부족한 10명은 그대로 보류했습니다.</p></div>
+      <div><h3>추정값을 읽을 수 있게</h3><p>미측정 축을 `—`로 가리던 방식을 폐기했습니다. 화면은 대체값 43/37의 등급과 길이를 보여 주되, 흐린 글자·점선 빗금 막대·“추정” 꼬리표로 실측과 구분합니다. 값과 경기 계산은 바꾸지 않았습니다.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>모바일 실제 화면</h2>
+    <div class="gallery">
+      <figure><img src="screenshots/01-restored-roster-390.png" alt="김현수를 검색한 선수단"><figcaption>390×844 · 새 게임의 KT 선수단에서 복원 대상 김현수를 검색했습니다.</figcaption></figure>
+      <figure><img src="screenshots/02-restored-detail-390.png" alt="김현수 능력 상세"><figcaption>복원된 기본 능력과 기존 관측 축이 함께 표시됩니다.</figcaption></figure>
+      <figure><img src="screenshots/03-estimated-detail-390.png" alt="배정대의 주력 추정 표시"><figcaption>미측정 주력은 값만큼 막대를 채우면서 `F+ 추정`과 빗금으로 구분합니다.</figcaption></figure>
+      <figure><img src="screenshots/04-estimate-help-390.png" alt="능력 등급과 추정 표시 도움말"><figcaption>도움말에서 등급 기준, 대체값, 현재 결측 범위를 설명합니다.</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>복원 전후와 보존 경계</h2>
+    <div class="table-wrap"><table><thead><tr><th>구분</th><th>변경</th><th>보존한 것</th></tr></thead><tbody>
+      <tr><td>1군 기본 능력</td><td>57명 · 228축 복원</td><td>표본 미달 10명은 복원 보류</td></tr>
+      <tr><td>수비</td><td>2001~2024 이력으로 122명 갱신</td><td>연결 근거 없는 선수는 추정 유지</td></tr>
+      <tr><td>미측정 표시</td><td>등급·막대·추정 꼬리표 표시</td><td>대체값 43/37과 계산식 불변</td></tr>
+      <tr><td>저장</td><td>새 게임부터 새 로스터 적용</td><td>진행 중 베타 세이브 소급 수정 없음</td></tr>
+      <tr><td>엔진</td><td>검증 산출물만 새 데이터에 맞춰 재생성</td><td>경기·성장·노쇠·정산·AI 식 불변</td></tr>
+    </tbody></table></div>
+    <p class="notice ok"><b>검증:</b> 현재 main `25b331b`에서 타입 검사, 전체 468개 검사, 프로덕션 빌드를 다시 통과했습니다. 모바일 Chromium 390×844에서 새 게임→선수단→검색→상세→도움말을 실제 조작했고 페이지 오류·4xx·가로 넘침이 없었습니다.</p>
+  </section>
+
+  <section>
+    <h2>아직 해결하지 않은 부분</h2>
+    <p class="notice"><b>2군 140명은 여전히 전원 OVR 37입니다.</b> 원문에는 이름·나이와 “No stats, Development Squad”만 있고 2군 성적이 없습니다. 742축의 대체값을 임의 분포로 바꾸면 경기 계산까지 달라지므로 이번 버전에서는 건드리지 않았습니다.</p>
+    <ul><li>투수 운영: 근거 연결 0명 / 미적용 120명</li><li>투수 구속: 미적용 66명</li><li>타자 수비: 미적용 18명</li><li>타자 스피드: 미적용 2명</li></ul>
+    <p>물리 스마트폰과 전체 시즌 UI 완주는 이번 보고서에서 새로 검증하지 않았습니다. 퓨처스 성적 자료가 들어오면 기존 수집·신원 연결 경로로 처리합니다.</p>
+  </section>
+
+  <section>
+    <h2>근거와 다음 작은 작업</h2>
+    <p class="links">브라우저 검증복원 결산수비 이력 적용 설명현재 상태</p>
+    <p><b>다음:</b> ECON-FANS-022에서 팀훈련 기본 제공·월간 집중육성 분리안을 현행 포인트 경쟁과 동일한 연간 기회로 비교합니다. 검토 전에는 가격·배수·잔액을 바꾸지 않습니다.</p>
+    <p class="foot">공개 게임은 별도 GitHub Pages 배포 기록에 따르며, 이 HTML 보고서 작성 자체는 게임 로직이나 사용자 저장을 변경하지 않습니다.</p>
+  </section>
+</main></body></html>

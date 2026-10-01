@@ -2,6 +2,12 @@
 
 **바로 플레이: https://xinker-kim.github.io/legacy9-play/**
 
+**공개 베타 Netlify: https://legacy9.netlify.app/**
+
+Netlify에서도 이 저장소의 같은 정적 배포본을 사용합니다. 포함된 `netlify.toml`은
+빌드 없이 저장소 루트를 배포하며, GitHub Pages용 `/legacy9-play/` 자산 경로를
+루트 파일에 연결합니다. 다음 소스 배포에서도 이 설정은 자동으로 포함됩니다.
+
 이 저장소는 KBO 구단 운영 시뮬레이션 **LEGACY 9**의 정적 빌드 산출물만 담습니다.
 소스 코드와 개발 이력은 비공개 저장소 `XinKer-Kim/legacy9`에 있으며, 여기에는
 `npm run build`로 만들어진 파일과 공개 에셋만 올라갑니다.

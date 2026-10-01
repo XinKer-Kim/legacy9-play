@@ -1,0 +1,23 @@
+# 공개 legacy9-play 정적 배포본 전용. 비공개 legacy9의 루트 설정과 구분한다.
+[build]
+  command = ""
+  publish = "."
+
+# document.baseURI 기반 게임 자산은 Netlify 도메인의 루트에서 불러온다.
+# 설치된 PWA의 manifest start_url(./)도 같은 진입점으로 이동한다.
+[[redirects]]
+  from = "/legacy9-play"
+  to = "/"
+  status = 302
+
+[[redirects]]
+  from = "/legacy9-play/"
+  to = "/"
+  status = 302
+
+# GitHub Pages용 번들이 요청하는 경로를 같은 공개 파일에 연결한다.
+# 앱 HTML로 대체하지 않아 없는 자산은 정상적으로 404를 반환한다.
+[[redirects]]
+  from = "/legacy9-play/*"
+  to = "/:splat"
+  status = 200

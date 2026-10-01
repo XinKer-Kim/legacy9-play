@@ -1,0 +1,1061 @@
+{
+ "version": 2,
+ "base_url": "/assets/ui/staff-portraits-v1/",
+ "size": 256,
+ "format": "webp q82",
+ "order": "시트별 행 우선. v1 → 1~36, v2 → 37~72",
+ "sources": [
+  {
+   "sheet": "v1",
+   "source": "assets-source/staff-portraits/staff-portraits-sheet-v1.webp",
+   "sourceSha256": "e4a9c0b7a7f5e4a75998b076b1c0df6ffb4304882f524b41157955fea1ecb13e",
+   "sourceSize": [
+    1254,
+    1254
+   ],
+   "grid": [
+    6,
+    6
+   ],
+   "range": [
+    1,
+    36
+   ],
+   "method": "흰 카드 테두리를 픽셀 분석으로 찾아 테두리 안쪽 3px을 더 제외한 정사각 영역"
+  },
+  {
+   "sheet": "v2",
+   "source": "assets-source/staff-portraits/staff-portraits-sheet-v2.webp",
+   "sourceSha256": "fe387ba9840d47acf93322bb36eb5d1494668dfbde9a6c9f59f88e5b4ed3d03d",
+   "sourceSize": [
+    1254,
+    1254
+   ],
+   "grid": [
+    6,
+    6
+   ],
+   "range": [
+    37,
+    72
+   ],
+   "background": [
+    234,
+    247,
+    236
+   ],
+   "method": "투명 배경 알파로 격자 빈 줄을 찾아 칸을 나누고, 칸 안 인물 경계 상자를 감싼 정사각(하단 정렬)을 연민트 배경에 합성. crop은 원본 좌표이며 시트 밖은 배경색으로 채움"
+  }
+ ],
+ "note": "역할 태그와 풀은 src/core/staff-portrait.ts가 기준이다.",
+ "entries": [
+  {
+   "index": 1,
+   "file": "staff-portrait-01.webp",
+   "sheet": "v1",
+   "crop": [
+    13,
+    13,
+    202,
+    202
+   ]
+  },
+  {
+   "index": 2,
+   "file": "staff-portrait-02.webp",
+   "sheet": "v1",
+   "crop": [
+    221,
+    13,
+    410,
+    202
+   ]
+  },
+  {
+   "index": 3,
+   "file": "staff-portrait-03.webp",
+   "sheet": "v1",
+   "crop": [
+    429,
+    13,
+    618,
+    202
+   ]
+  },
+  {
+   "index": 4,
+   "file": "staff-portrait-04.webp",
+   "sheet": "v1",
+   "crop": [
+    637,
+    13,
+    826,
+    202
+   ]
+  },
+  {
+   "index": 5,
+   "file": "staff-portrait-05.webp",
+   "sheet": "v1",
+   "crop": [
+    845,
+    13,
+    1034,
+    202
+   ]
+  },
+  {
+   "index": 6,
+   "file": "staff-portrait-06.webp",
+   "sheet": "v1",
+   "crop": [
+    1053,
+    13,
+    1241,
+    201
+   ]
+  },
+  {
+   "index": 7,
+   "file": "staff-portrait-07.webp",
+   "sheet": "v1",
+   "crop": [
+    13,
+    221,
+    202,
+    410
+   ]
+  },
+  {
+   "index": 8,
+   "file": "staff-portrait-08.webp",
+   "sheet": "v1",
+   "crop": [
+    221,
+    221,
+    410,
+    410
+   ]
+  },
+  {
+   "index": 9,
+   "file": "staff-portrait-09.webp",
+   "sheet": "v1",
+   "crop": [
+    429,
+    221,
+    618,
+    410
+   ]
+  },
+  {
+   "index": 10,
+   "file": "staff-portrait-10.webp",
+   "sheet": "v1",
+   "crop": [
+    637,
+    221,
+    826,
+    410
+   ]
+  },
+  {
+   "index": 11,
+   "file": "staff-portrait-11.webp",
+   "sheet": "v1",
+   "crop": [
+    845,
+    221,
+    1034,
+    410
+   ]
+  },
+  {
+   "index": 12,
+   "file": "staff-portrait-12.webp",
+   "sheet": "v1",
+   "crop": [
+    1053,
+    221,
+    1241,
+    409
+   ]
+  },
+  {
+   "index": 13,
+   "file": "staff-portrait-13.webp",
+   "sheet": "v1",
+   "crop": [
+    13,
+    429,
+    202,
+    618
+   ]
+  },
+  {
+   "index": 14,
+   "file": "staff-portrait-14.webp",
+   "sheet": "v1",
+   "crop": [
+    221,
+    429,
+    410,
+    618
+   ]
+  },
+  {
+   "index": 15,
+   "file": "staff-portrait-15.webp",
+   "sheet": "v1",
+   "crop": [
+    429,
+    429,
+    618,
+    618
+   ]
+  },
+  {
+   "index": 16,
+   "file": "staff-portrait-16.webp",
+   "sheet": "v1",
+   "crop": [
+    637,
+    429,
+    826,
+    618
+   ]
+  },
+  {
+   "index": 17,
+   "file": "staff-portrait-17.webp",
+   "sheet": "v1",
+   "crop": [
+    845,
+    429,
+    1034,
+    618
+   ]
+  },
+  {
+   "index": 18,
+   "file": "staff-portrait-18.webp",
+   "sheet": "v1",
+   "crop": [
+    1053,
+    429,
+    1241,
+    617
+   ]
+  },
+  {
+   "index": 19,
+   "file": "staff-portrait-19.webp",
+   "sheet": "v1",
+   "crop": [
+    13,
+    637,
+    202,
+    826
+   ]
+  },
+  {
+   "index": 20,
+   "file": "staff-portrait-20.webp",
+   "sheet": "v1",
+   "crop": [
+    221,
+    637,
+    410,
+    826
+   ]
+  },
+  {
+   "index": 21,
+   "file": "staff-portrait-21.webp",
+   "sheet": "v1",
+   "crop": [
+    429,
+    637,
+    618,
+    826
+   ]
+  },
+  {
+   "index": 22,
+   "file": "staff-portrait-22.webp",
+   "sheet": "v1",
+   "crop": [
+    637,
+    637,
+    826,
+    826
+   ]
+  },
+  {
+   "index": 23,
+   "file": "staff-portrait-23.webp",
+   "sheet": "v1",
+   "crop": [
+    845,
+    637,
+    1034,
+    826
+   ]
+  },
+  {
+   "index": 24,
+   "file": "staff-portrait-24.webp",
+   "sheet": "v1",
+   "crop": [
+    1053,
+    637,
+    1241,
+    825
+   ]
+  },
+  {
+   "index": 25,
+   "file": "staff-portrait-25.webp",
+   "sheet": "v1",
+   "crop": [
+    14,
+    844,
+    201,
+    1031
+   ]
+  },
+  {
+   "index": 26,
+   "file": "staff-portrait-26.webp",
+   "sheet": "v1",
+   "crop": [
+    222,
+    844,
+    409,
+    1031
+   ]
+  },
+  {
+   "index": 27,
+   "file": "staff-portrait-27.webp",
+   "sheet": "v1",
+   "crop": [
+    430,
+    844,
+    617,
+    1031
+   ]
+  },
+  {
+   "index": 28,
+   "file": "staff-portrait-28.webp",
+   "sheet": "v1",
+   "crop": [
+    638,
+    844,
+    825,
+    1031
+   ]
+  },
+  {
+   "index": 29,
+   "file": "staff-portrait-29.webp",
+   "sheet": "v1",
+   "crop": [
+    846,
+    844,
+    1033,
+    1031
+   ]
+  },
+  {
+   "index": 30,
+   "file": "staff-portrait-30.webp",
+   "sheet": "v1",
+   "crop": [
+    1053,
+    844,
+    1240,
+    1031
+   ]
+  },
+  {
+   "index": 31,
+   "file": "staff-portrait-31.webp",
+   "sheet": "v1",
+   "crop": [
+    13,
+    1050,
+    202,
+    1239
+   ]
+  },
+  {
+   "index": 32,
+   "file": "staff-portrait-32.webp",
+   "sheet": "v1",
+   "crop": [
+    221,
+    1050,
+    410,
+    1239
+   ]
+  },
+  {
+   "index": 33,
+   "file": "staff-portrait-33.webp",
+   "sheet": "v1",
+   "crop": [
+    429,
+    1050,
+    618,
+    1239
+   ]
+  },
+  {
+   "index": 34,
+   "file": "staff-portrait-34.webp",
+   "sheet": "v1",
+   "crop": [
+    637,
+    1050,
+    826,
+    1239
+   ]
+  },
+  {
+   "index": 35,
+   "file": "staff-portrait-35.webp",
+   "sheet": "v1",
+   "crop": [
+    845,
+    1050,
+    1034,
+    1239
+   ]
+  },
+  {
+   "index": 36,
+   "file": "staff-portrait-36.webp",
+   "sheet": "v1",
+   "crop": [
+    1053,
+    1050,
+    1241,
+    1238
+   ]
+  },
+  {
+   "index": 37,
+   "file": "staff-portrait-37.webp",
+   "sheet": "v2",
+   "cell": [
+    13,
+    11,
+    205,
+    207
+   ],
+   "crop": [
+    6,
+    7,
+    206,
+    207
+   ]
+  },
+  {
+   "index": 38,
+   "file": "staff-portrait-38.webp",
+   "sheet": "v2",
+   "cell": [
+    213,
+    11,
+    415,
+    207
+   ],
+   "crop": [
+    207,
+    -3,
+    417,
+    207
+   ]
+  },
+  {
+   "index": 39,
+   "file": "staff-portrait-39.webp",
+   "sheet": "v2",
+   "cell": [
+    422,
+    11,
+    623,
+    207
+   ],
+   "crop": [
+    417,
+    -3,
+    627,
+    207
+   ]
+  },
+  {
+   "index": 40,
+   "file": "staff-portrait-40.webp",
+   "sheet": "v2",
+   "cell": [
+    633,
+    11,
+    831,
+    207
+   ],
+   "crop": [
+    629,
+    -2,
+    837,
+    206
+   ]
+  },
+  {
+   "index": 41,
+   "file": "staff-portrait-41.webp",
+   "sheet": "v2",
+   "cell": [
+    841,
+    11,
+    1043,
+    207
+   ],
+   "crop": [
+    841,
+    -2,
+    1049,
+    206
+   ]
+  },
+  {
+   "index": 42,
+   "file": "staff-portrait-42.webp",
+   "sheet": "v2",
+   "cell": [
+    1054,
+    11,
+    1240,
+    207
+   ],
+   "crop": [
+    1048,
+    5,
+    1246,
+    203
+   ]
+  },
+  {
+   "index": 43,
+   "file": "staff-portrait-43.webp",
+   "sheet": "v2",
+   "cell": [
+    13,
+    213,
+    205,
+    413
+   ],
+   "crop": [
+    4,
+    208,
+    209,
+    413
+   ]
+  },
+  {
+   "index": 44,
+   "file": "staff-portrait-44.webp",
+   "sheet": "v2",
+   "cell": [
+    213,
+    213,
+    415,
+    413
+   ],
+   "crop": [
+    207,
+    199,
+    421,
+    413
+   ]
+  },
+  {
+   "index": 45,
+   "file": "staff-portrait-45.webp",
+   "sheet": "v2",
+   "cell": [
+    422,
+    213,
+    623,
+    413
+   ],
+   "crop": [
+    423,
+    207,
+    629,
+    413
+   ]
+  },
+  {
+   "index": 46,
+   "file": "staff-portrait-46.webp",
+   "sheet": "v2",
+   "cell": [
+    633,
+    213,
+    831,
+    413
+   ],
+   "crop": [
+    630,
+    206,
+    837,
+    413
+   ]
+  },
+  {
+   "index": 47,
+   "file": "staff-portrait-47.webp",
+   "sheet": "v2",
+   "cell": [
+    841,
+    213,
+    1043,
+    413
+   ],
+   "crop": [
+    839,
+    203,
+    1049,
+    413
+   ]
+  },
+  {
+   "index": 48,
+   "file": "staff-portrait-48.webp",
+   "sheet": "v2",
+   "cell": [
+    1054,
+    213,
+    1240,
+    413
+   ],
+   "crop": [
+    1046,
+    210,
+    1248,
+    412
+   ]
+  },
+  {
+   "index": 49,
+   "file": "staff-portrait-49.webp",
+   "sheet": "v2",
+   "cell": [
+    13,
+    418,
+    205,
+    616
+   ],
+   "crop": [
+    8,
+    412,
+    211,
+    615
+   ]
+  },
+  {
+   "index": 50,
+   "file": "staff-portrait-50.webp",
+   "sheet": "v2",
+   "cell": [
+    213,
+    418,
+    415,
+    616
+   ],
+   "crop": [
+    210,
+    414,
+    411,
+    615
+   ]
+  },
+  {
+   "index": 51,
+   "file": "staff-portrait-51.webp",
+   "sheet": "v2",
+   "cell": [
+    422,
+    418,
+    623,
+    616
+   ],
+   "crop": [
+    417,
+    405,
+    626,
+    614
+   ]
+  },
+  {
+   "index": 52,
+   "file": "staff-portrait-52.webp",
+   "sheet": "v2",
+   "cell": [
+    633,
+    418,
+    831,
+    616
+   ],
+   "crop": [
+    628,
+    409,
+    835,
+    616
+   ]
+  },
+  {
+   "index": 53,
+   "file": "staff-portrait-53.webp",
+   "sheet": "v2",
+   "cell": [
+    841,
+    418,
+    1043,
+    616
+   ],
+   "crop": [
+    835,
+    411,
+    1040,
+    616
+   ]
+  },
+  {
+   "index": 54,
+   "file": "staff-portrait-54.webp",
+   "sheet": "v2",
+   "cell": [
+    1054,
+    418,
+    1240,
+    616
+   ],
+   "crop": [
+    1045,
+    412,
+    1249,
+    616
+   ]
+  },
+  {
+   "index": 55,
+   "file": "staff-portrait-55.webp",
+   "sheet": "v2",
+   "cell": [
+    13,
+    622,
+    205,
+    826
+   ],
+   "crop": [
+    5,
+    617,
+    212,
+    824
+   ]
+  },
+  {
+   "index": 56,
+   "file": "staff-portrait-56.webp",
+   "sheet": "v2",
+   "cell": [
+    213,
+    622,
+    415,
+    826
+   ],
+   "crop": [
+    208,
+    616,
+    416,
+    824
+   ]
+  },
+  {
+   "index": 57,
+   "file": "staff-portrait-57.webp",
+   "sheet": "v2",
+   "cell": [
+    422,
+    622,
+    623,
+    826
+   ],
+   "crop": [
+    417,
+    615,
+    628,
+    826
+   ]
+  },
+  {
+   "index": 58,
+   "file": "staff-portrait-58.webp",
+   "sheet": "v2",
+   "cell": [
+    633,
+    622,
+    831,
+    826
+   ],
+   "crop": [
+    626,
+    619,
+    831,
+    824
+   ]
+  },
+  {
+   "index": 59,
+   "file": "staff-portrait-59.webp",
+   "sheet": "v2",
+   "cell": [
+    841,
+    622,
+    1043,
+    826
+   ],
+   "crop": [
+    835,
+    611,
+    1049,
+    825
+   ]
+  },
+  {
+   "index": 60,
+   "file": "staff-portrait-60.webp",
+   "sheet": "v2",
+   "cell": [
+    1054,
+    622,
+    1240,
+    826
+   ],
+   "crop": [
+    1043,
+    620,
+    1248,
+    825
+   ]
+  },
+  {
+   "index": 61,
+   "file": "staff-portrait-61.webp",
+   "sheet": "v2",
+   "cell": [
+    13,
+    833,
+    205,
+    1028
+   ],
+   "crop": [
+    7,
+    827,
+    208,
+    1028
+   ]
+  },
+  {
+   "index": 62,
+   "file": "staff-portrait-62.webp",
+   "sheet": "v2",
+   "cell": [
+    213,
+    833,
+    415,
+    1028
+   ],
+   "crop": [
+    211,
+    821,
+    416,
+    1026
+   ]
+  },
+  {
+   "index": 63,
+   "file": "staff-portrait-63.webp",
+   "sheet": "v2",
+   "cell": [
+    422,
+    833,
+    623,
+    1028
+   ],
+   "crop": [
+    405,
+    833,
+    599,
+    1027
+   ]
+  },
+  {
+   "index": 64,
+   "file": "staff-portrait-64.webp",
+   "sheet": "v2",
+   "cell": [
+    633,
+    833,
+    831,
+    1028
+   ],
+   "crop": [
+    627,
+    819,
+    835,
+    1027
+   ]
+  },
+  {
+   "index": 65,
+   "file": "staff-portrait-65.webp",
+   "sheet": "v2",
+   "cell": [
+    841,
+    833,
+    1043,
+    1028
+   ],
+   "crop": [
+    835,
+    815,
+    1047,
+    1027
+   ]
+  },
+  {
+   "index": 66,
+   "file": "staff-portrait-66.webp",
+   "sheet": "v2",
+   "cell": [
+    1054,
+    833,
+    1240,
+    1028
+   ],
+   "crop": [
+    1048,
+    830,
+    1246,
+    1028
+   ]
+  },
+  {
+   "index": 67,
+   "file": "staff-portrait-67.webp",
+   "sheet": "v2",
+   "cell": [
+    13,
+    1029,
+    205,
+    1240
+   ],
+   "crop": [
+    0,
+    1023,
+    215,
+    1238
+   ]
+  },
+  {
+   "index": 68,
+   "file": "staff-portrait-68.webp",
+   "sheet": "v2",
+   "cell": [
+    213,
+    1029,
+    415,
+    1240
+   ],
+   "crop": [
+    207,
+    1027,
+    419,
+    1239
+   ]
+  },
+  {
+   "index": 69,
+   "file": "staff-portrait-69.webp",
+   "sheet": "v2",
+   "cell": [
+    422,
+    1029,
+    623,
+    1240
+   ],
+   "crop": [
+    419,
+    1027,
+    632,
+    1240
+   ]
+  },
+  {
+   "index": 70,
+   "file": "staff-portrait-70.webp",
+   "sheet": "v2",
+   "cell": [
+    633,
+    1029,
+    831,
+    1240
+   ],
+   "crop": [
+    625,
+    1028,
+    837,
+    1240
+   ]
+  },
+  {
+   "index": 71,
+   "file": "staff-portrait-71.webp",
+   "sheet": "v2",
+   "cell": [
+    841,
+    1029,
+    1043,
+    1240
+   ],
+   "crop": [
+    835,
+    1025,
+    1049,
+    1239
+   ]
+  },
+  {
+   "index": 72,
+   "file": "staff-portrait-72.webp",
+   "sheet": "v2",
+   "cell": [
+    1054,
+    1029,
+    1240,
+    1240
+   ],
+   "crop": [
+    1040,
+    1024,
+    1255,
+    1239
+   ]
+  }
+ ]
+}
